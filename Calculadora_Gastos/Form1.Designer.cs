@@ -35,6 +35,8 @@
             this.btnAdicionar = new System.Windows.Forms.Button();
             this.btnCalcular = new System.Windows.Forms.Button();
             this.textResultado = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // listBox1
@@ -63,7 +65,7 @@
             // 
             this.textSaidas.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textSaidas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textSaidas.Location = new System.Drawing.Point(95, 109);
+            this.textSaidas.Location = new System.Drawing.Point(95, 131);
             this.textSaidas.Margin = new System.Windows.Forms.Padding(50);
             this.textSaidas.Name = "textSaidas";
             this.textSaidas.Size = new System.Drawing.Size(229, 30);
@@ -110,6 +112,28 @@
             this.textResultado.Text = "Resultado";
             this.textResultado.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(93, 9);
+            this.label1.Margin = new System.Windows.Forms.Padding(0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(109, 31);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Entrada";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(93, 98);
+            this.label2.Margin = new System.Windows.Forms.Padding(0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(68, 25);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Saída";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -117,6 +141,8 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(782, 314);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.textResultado);
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.btnAdicionar);
@@ -141,6 +167,8 @@
         private System.Windows.Forms.Button btnAdicionar;
         private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.Label textResultado;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
 
