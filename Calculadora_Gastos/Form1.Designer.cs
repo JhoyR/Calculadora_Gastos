@@ -45,17 +45,17 @@
             this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 25;
-            this.listBox1.Location = new System.Drawing.Point(394, 45);
+            this.listBox1.Location = new System.Drawing.Point(349, 18);
             this.listBox1.Margin = new System.Windows.Forms.Padding(50);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(329, 179);
+            this.listBox1.Size = new System.Drawing.Size(328, 204);
             this.listBox1.TabIndex = 0;
             // 
             // textEntradas
             // 
             this.textEntradas.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textEntradas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textEntradas.Location = new System.Drawing.Point(95, 45);
+            this.textEntradas.Location = new System.Drawing.Point(95, 44);
             this.textEntradas.Margin = new System.Windows.Forms.Padding(50);
             this.textEntradas.Name = "textEntradas";
             this.textEntradas.Size = new System.Drawing.Size(229, 30);
@@ -65,7 +65,7 @@
             // 
             this.textSaidas.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textSaidas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textSaidas.Location = new System.Drawing.Point(95, 131);
+            this.textSaidas.Location = new System.Drawing.Point(95, 130);
             this.textSaidas.Margin = new System.Windows.Forms.Padding(50);
             this.textSaidas.Name = "textSaidas";
             this.textSaidas.Size = new System.Drawing.Size(229, 30);
@@ -75,7 +75,7 @@
             // 
             this.btnAdicionar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnAdicionar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdicionar.Location = new System.Drawing.Point(95, 182);
+            this.btnAdicionar.Location = new System.Drawing.Point(95, 181);
             this.btnAdicionar.Margin = new System.Windows.Forms.Padding(50);
             this.btnAdicionar.Name = "btnAdicionar";
             this.btnAdicionar.Size = new System.Drawing.Size(126, 42);
@@ -88,7 +88,7 @@
             // 
             this.btnCalcular.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalcular.Location = new System.Drawing.Point(227, 182);
+            this.btnCalcular.Location = new System.Drawing.Point(227, 181);
             this.btnCalcular.Margin = new System.Windows.Forms.Padding(50);
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(97, 42);
@@ -99,15 +99,16 @@
             // 
             // textResultado
             // 
-            this.textResultado.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.textResultado.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.textResultado.AutoSize = true;
             this.textResultado.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.textResultado.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textResultado.ForeColor = System.Drawing.SystemColors.Control;
-            this.textResultado.Location = new System.Drawing.Point(492, 256);
-            this.textResultado.Margin = new System.Windows.Forms.Padding(20);
+            this.textResultado.Location = new System.Drawing.Point(349, 242);
+            this.textResultado.Margin = new System.Windows.Forms.Padding(5);
             this.textResultado.Name = "textResultado";
-            this.textResultado.Size = new System.Drawing.Size(122, 29);
+            this.textResultado.Size = new System.Drawing.Size(124, 31);
             this.textResultado.TabIndex = 5;
             this.textResultado.Text = "Resultado";
             this.textResultado.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -119,7 +120,7 @@
             this.label1.Location = new System.Drawing.Point(93, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(123, 31);
+            this.label1.Size = new System.Drawing.Size(98, 25);
             this.label1.TabIndex = 6;
             this.label1.Text = "Entradas";
             // 
@@ -130,7 +131,7 @@
             this.label2.Location = new System.Drawing.Point(93, 98);
             this.label2.Margin = new System.Windows.Forms.Padding(0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(99, 31);
+            this.label2.Size = new System.Drawing.Size(79, 25);
             this.label2.TabIndex = 7;
             this.label2.Text = "Saídas";
             // 
@@ -140,7 +141,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ClientSize = new System.Drawing.Size(782, 314);
+            this.ClientSize = new System.Drawing.Size(782, 313);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textResultado);
