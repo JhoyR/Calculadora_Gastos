@@ -119,9 +119,9 @@
             this.label1.Location = new System.Drawing.Point(93, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(109, 31);
+            this.label1.Size = new System.Drawing.Size(123, 31);
             this.label1.TabIndex = 6;
-            this.label1.Text = "Entrada";
+            this.label1.Text = "Entradas";
             // 
             // label2
             // 
@@ -130,9 +130,9 @@
             this.label2.Location = new System.Drawing.Point(93, 98);
             this.label2.Margin = new System.Windows.Forms.Padding(0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(68, 25);
+            this.label2.Size = new System.Drawing.Size(99, 31);
             this.label2.TabIndex = 7;
-            this.label2.Text = "Saída";
+            this.label2.Text = "Saídas";
             // 
             // Form1
             // 
