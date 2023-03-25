@@ -57,7 +57,7 @@
             this.textEntradas.Location = new System.Drawing.Point(77, 48);
             this.textEntradas.Margin = new System.Windows.Forms.Padding(50);
             this.textEntradas.Name = "textEntradas";
-            this.textEntradas.Size = new System.Drawing.Size(229, 30);
+            this.textEntradas.Size = new System.Drawing.Size(252, 30);
             this.textEntradas.TabIndex = 1;
             // 
             // textSaidas
@@ -66,7 +66,7 @@
             this.textSaidas.Location = new System.Drawing.Point(77, 156);
             this.textSaidas.Margin = new System.Windows.Forms.Padding(50);
             this.textSaidas.Name = "textSaidas";
-            this.textSaidas.Size = new System.Drawing.Size(229, 30);
+            this.textSaidas.Size = new System.Drawing.Size(252, 30);
             this.textSaidas.TabIndex = 2;
             // 
             // btnAdicionar
@@ -84,10 +84,10 @@
             // btnCalcular
             // 
             this.btnCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalcular.Location = new System.Drawing.Point(242, 220);
+            this.btnCalcular.Location = new System.Drawing.Point(225, 220);
             this.btnCalcular.Margin = new System.Windows.Forms.Padding(50);
             this.btnCalcular.Name = "btnCalcular";
-            this.btnCalcular.Size = new System.Drawing.Size(97, 42);
+            this.btnCalcular.Size = new System.Drawing.Size(104, 42);
             this.btnCalcular.TabIndex = 4;
             this.btnCalcular.Text = "Calcular";
             this.btnCalcular.UseVisualStyleBackColor = true;
