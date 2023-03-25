@@ -14,6 +14,7 @@ namespace Calculadora_Gastos
     {
         private List<decimal> entradas = new List<decimal>();
         private List<decimal> saidas = new List<decimal>();
+        private decimal saldoTotal;
 
         public Form1()
         {
@@ -39,8 +40,19 @@ namespace Calculadora_Gastos
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            var saldoTotal = entradas.Sum() - saidas.Sum();
+            saldoTotal = entradas.Sum() - saidas.Sum();
             textResultado.Text = $"Saldo total: {saldoTotal:C}";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Clear();
+            saldoTotal = 0;
+            entradas.Clear();
+            saidas.Clear();
+            textResultado.Text = "Resultado";
+
+
         }
     }
 }
